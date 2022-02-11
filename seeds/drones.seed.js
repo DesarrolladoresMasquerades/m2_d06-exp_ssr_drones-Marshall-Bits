@@ -14,6 +14,7 @@ const drones = [
 Drone.create(drones)
     .then(dronesOnDB => {
         console.log(`We have created ${dronesOnDB.length} drones`);
+        
     })
     .catch((err) => console.log("Error creating drones", err))
 
